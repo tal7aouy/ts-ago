@@ -1,6 +1,6 @@
 # ts-ago
 
-a simple library used to format datetime with `*** time ago` statement into readable format. eg: '3 hours ago'
+a simple library used to format datetime with `time ago` statement into readable format. eg: '3 hours ago'
 
 Formats a timestamp to:
 
