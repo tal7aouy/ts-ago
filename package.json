@@ -1,0 +1,45 @@
+{
+  "name": "ts-ago",
+  "version": "1.0.1",
+  "description": "ts-ago is a simple library  used to format datetime with `*** time ago` statement. eg: '3 hours ago'",
+  "license": "MIT",
+  "main": "build/ago.js",
+  "types": "build/ago.d.ts",
+  "author": "tal7aouy <talhaouycoding@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tal7aouy/ts-ago.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tal7aouy/ts-ago/issues"
+  },
+  "homepage": "https://github.com/tal7aouy/ts-ago#readme",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint . --ext .ts --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "ago",
+    "format",
+    "datetime",
+    "time ago",
+    "ts-ago",
+    "time",
+    "timestamp"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
+    "@typescript-eslint/parser": "^5.15.0",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.0",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  }
+}
